@@ -28,7 +28,7 @@ jobs:
           cache: true
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build both pages
+      - name: Build all pages
         run: pnpm build
         env:
           VITE_BASE_PATH: /Hub-mockups/
