@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 
 import { IconAdd } from '@consta/icons/IconAdd';
 import { IconArrowDown } from '@consta/icons/IconArrowDown';
