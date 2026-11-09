@@ -1,0 +1,4 @@
+.header-user .user-account-trigger{font:inherit;color:inherit;text-align:left;border:0;cursor:pointer;flex-shrink:0}
+.user-account-trigger:focus-visible{outline:2px solid var(--color-control-bg-primary);outline-offset:4px;border-radius:4px}
+.user-account-menu{z-index:1500!important;min-width:232px}
+@media(max-width:800px){.header-user .User.user-account-trigger{display:flex;padding:0}.user-account-trigger .User-Name,.user-account-trigger .User-Icon{display:none}.header-user{gap:16px}}

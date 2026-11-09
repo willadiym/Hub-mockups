@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.pnpm-store/
+.DS_Store
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+ops/local.n1hub.status-dev.plist
